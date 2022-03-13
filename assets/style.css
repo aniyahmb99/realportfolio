@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto Mono', 'Nunito Sans', sans-serif;
+}
+
+#navbar {
+    border-bottom: 5px solid black;
+    display: inline-flex;
+    justify-content: space-between;
+}
+ a {
+     text-decoration: none;
+     color: #3A2065;
+     font-weight: bolder;
+ 
+ }
+
+ #link-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.hero-image {
+    background-image: url("/assets/images/purpleandpink.jpeg");
+    background-color: purple;
+    display: flex;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.intro-text {
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #E1C8E5;
+    text-shadow: 40px 40px 40px 40px black;
+}
+
+li {
+    
+}
