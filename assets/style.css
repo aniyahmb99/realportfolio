@@ -1,54 +1,116 @@
 body {
   font-family: 'Roboto Mono', 'Nunito Sans', sans-serif;
+  background-color: #a2a3a2;
 }
 
 #navbar {
-    border-bottom: 5px solid black;
+   
     display: inline-flex;
     justify-content: space-between;
+    flex-direction: row;
+    
+    
 }
  a {
      text-decoration: none;
-     color: #3A2065;
+     color: white;
      font-weight: bolder;
+     display: flex;
+     justify-content: space-between;
+     padding-right: 20px;
+     padding-top: 15px;
+     padding-bottom: 20px;
+    z-index: 9999;
+    top: 0px;
+    
  
  }
+ 
+nav {
+    display: block;
+    position: relative;
+    background-color: #a2a3a2;
+    z-index: 9998;
+    width: 100%;
+    align-content: flex-end;
+    height: 30px;
+    padding-bottom: 20px;
+    left: 15px;
+   
+}
 
- #link-container {
+ul {
+    padding-bottom: 15px;
+    
+}
+
+ #link-items {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
+    padding-right: 15px;
+    height: 45px;
+    position: relative;
+    top: 0;
+    
+    
 }
 
 .hero-image {
-    background-image: url("/assets/images/purpleandpink.jpeg");
-    background-color: purple;
-    display: flex;
+    background-image: url("./images/pexels-macbook.jpg");
+    display: block;
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 900px;
+    left: 10px;
+    margin-left: 0;
+   
 }
 
 .title-text {
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 20%;
+    right: 30%; 
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: 900px;
 }
 
 .intro-text {
     position: absolute;
-    bottom: 30%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    color: #E1C8E5;
-    text-shadow: 40px 40px 40px 40px black;
+    top: 25%;
+    left: 52%;
+    
+    color: white;
 }
 
-li {
+div {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+}
+
+
+#hero-position {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 1800px;
+  
+}
+
+div .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 100%;
+    position: relative;
     
 }
+
