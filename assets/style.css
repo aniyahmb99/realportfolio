@@ -43,23 +43,33 @@ body {
 }
 
 /* START HERO */
-.hero {
+/* .hero {
   background-image: url(./images/pexels-beige.jpg);
-  width: 100%;
-  height: 900px;
+  /* width: 100px;
+  height: 100px;
   min-height: 398px;
   right: 50px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100% contain; /* Set width and height to 100% */
+  background-size: 100% 100% contain; /* Set width and height to 100%
+} */
+
+#beige {
+  width: 1400px;
+  height: 900px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
 }
+
 .hero-text h1 {
+  position: relative;
   font-weight: 500;
   font-size: 300px;
   color: var(--secondary-color);
   font-style: italic;
-
+  z-index: 200;
   margin-top: 15%;
 }
 
@@ -69,7 +79,8 @@ body {
   font-size: 100px;
   color: var(--secondary-color);
   text-align: center;
-  padding-top: 15px;
+  padding: 0px;
+  margin: 0;
 }
 
 .ul-social {
